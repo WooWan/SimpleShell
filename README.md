@@ -28,9 +28,8 @@ java SimpleShell
 
 **cd**
 
-+ Change directory to /home/user
-
     cd
+    
 Change directory to /home/user directory and display it.  (absolute path is working)
 
 + Handle absolute path
