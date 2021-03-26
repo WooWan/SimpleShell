@@ -29,47 +29,47 @@ java SimpleShell
 **cd**
 
 >Change directory to /home/user
-+ cd
+    cd
 Change directory to /home/user directory and display it.  (absolute path is working)
 
 >Handle absolute path
-+ cd /home
+    cd /home
 Change directory to /home
 
 >Relative path 
-+ cd user
+    cd user
 Change directory to   /home/user 
 
-+ cd ./user_name/existingFolder , cd user_name/exisitingFolder
+    cd ./user_name/existingFolder , cd user_name/exisitingFolder
 Change directory to /home/user_name/existingFolder
 
-+ cd ..
+    cd ..
 Change directory to /home/user
 
 >Error handling 
-+ cd fakeDirectory
+    cd fakeDirectory
 Print "Invalid path, take valid path again".
 
 ----------------------------
 **history**
 
-##important
+## important
 >I implement my program based on document, but there is no guideline for history redundancy. So, in this part, I made my program based on Linux command
 >Accoding to Linux command, continuous redundant commands are not be added in history.
 ---------------------
-  history
+    history
 Print out all commands that have been entered by the user along with the command numbers since the shell was invoked.
 If there is no previous command, print out "No previous command in history".
 
-+ history <number>
+    history <number>
 Print last <number> commands. 
 For example, if user take input <history 3>, then program print out recent 3 commands along with commands numbers.
 
-+ history !!
+    history !!
 Run the previous command in the history and this command will not be added in history ArrayList.
 If there is no previous command, print out "No previous command in history".
 
-+ history !<number>
+    history !<number>
 Run the ith command in the history. If i is bigger than size of history, then print out "Index out of bound error".
 
 **Other commands**
