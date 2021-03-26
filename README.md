@@ -30,22 +30,22 @@
   **cd**
   
   >Change directory to /home/user
-  +cd
+  + cd
   Change directory to /home/user directory and display it.  (absolute path is working)
   
   >Handle absolute path
-  +cd /home
-  +Change directory to /home
+  + cd /home
+  + Change directory to /home
   
   >Relative path 
-  +cd user
-  +Change directory to   /home/user 
+  + cd user
+  + Change directory to   /home/user 
   
-  +cd ./user_name/existingFolder , cd user_name/exisitingFolder
-  +Change directory to /home/user_name/existingFolder
+  + cd ./user_name/existingFolder , cd user_name/exisitingFolder
+  + Change directory to /home/user_name/existingFolder
   
   +cd ..
-  +Change directory to /home/user
+  + Change directory to /home/user
   
   >Error handling 
   +cd fakeDirectory
@@ -74,33 +74,33 @@
   + Run the ith command in the history. If i is bigger than size of history, then print out "Index out of bound error".
 
   **Other commands**
-  +ls
+  + ls
   Print out directories and files in the directory on the screen.
   
-  +pwd
+  + pwd
   Print out an absolute path to the directory you are currently working in.
   
-  +cat
+  + cat
   Print out contents of the file.
   
   **Error handling**
   
-  +cd fakedirectory
+  + cd fakedirectory
   Print "Invalid path, take valid path again".
   
-  +history !!
+  + history !!
   If no previous command in history, print out "No previous command in history".
   
-  +history 100000
+  + history 100000
   If integer excess size of history list, print out "Integer exceeds size of history list".
   
-  +history !<Integer>
+  + history !<Integer>
   If there is no command for the corresponding integer, print out "Integer exceeds size of history list".
   
-  +history !<Invalid type>
+  + history !<Invalid type>
   If user enter invalid type, then print out "Invalid type, check the type".
   
-  +invalid command
+  + invalid command
   If there is no exisiting command, print out "Input Error, Please try again!"
 
 
