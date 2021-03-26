@@ -52,7 +52,7 @@ Change directory to /home/user
 
 ### Error handling 
     cd fakeDirectory
-Print "Invalid path, take valid path again".
+Print "Invalid path, enter valid path again".
 
 ----------------------------
 **history**
