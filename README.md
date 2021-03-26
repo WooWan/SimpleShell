@@ -28,8 +28,10 @@ java SimpleShell
     quit, exit
     
  Print out "Good bye" and terminate the shell
-   
+
+
 **cd**
+
     cd
     
 Change directory to /home/user directory and display it.  (absolute path is working)
