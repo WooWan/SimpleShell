@@ -25,7 +25,7 @@
 
 ## 3. Functional Description
   
-  *ls*
+  **ls**
   
   **cd**
   
@@ -35,21 +35,21 @@
   
   >Handle absolute path
   + cd /home
-  + Change directory to /home
+  Change directory to /home
   
   >Relative path 
   + cd user
-  + Change directory to   /home/user 
+  Change directory to   /home/user 
   
   + cd ./user_name/existingFolder , cd user_name/exisitingFolder
-  + Change directory to /home/user_name/existingFolder
+  Change directory to /home/user_name/existingFolder
   
   + cd ..
-  + Change directory to /home/user
+  Change directory to /home/user
   
   >Error handling 
   + cd fakeDirectory
-  + Print "Invalid path, take valid path again".
+  Print "Invalid path, take valid path again".
   
   ----------------------------
   **history**
@@ -71,7 +71,7 @@
   If there is no previous command, print out "No previous command in history".
   
   + history !<number>
-  + Run the ith command in the history. If i is bigger than size of history, then print out "Index out of bound error".
+  Run the ith command in the history. If i is bigger than size of history, then print out "Index out of bound error".
 
   **Other commands**
   + ls
