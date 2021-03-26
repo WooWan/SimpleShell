@@ -44,12 +44,12 @@
   + cd ./user_name/existingFolder , cd user_name/exisitingFolder
   + Change directory to /home/user_name/existingFolder
   
-  +cd ..
+  + cd ..
   + Change directory to /home/user
   
   >Error handling 
-  +cd fakeDirectory
-  +Print "Invalid path, take valid path again".
+  + cd fakeDirectory
+  + Print "Invalid path, take valid path again".
   
   ----------------------------
   **history**
