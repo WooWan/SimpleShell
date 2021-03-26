@@ -10,14 +10,17 @@
 ## 2.Problem Statement
  Creating a Shell Interface Using Java. It includes history, cd, pwd, and cat.
  
- ###Working environment
+ ### Working environment
  VMware-ubuntu, JAVA
  
  ### How to compile?
- >javac SimpleShell.java
+ ```
+ javac SimpleShell.java
+ ```
  ### How to implement?
- >java SimpleShell
- 
+ ```
+ java SimpleShell
+ ```
 -----------
 
 ## 3. Functional Description
