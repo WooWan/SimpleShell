@@ -1,9 +1,9 @@
 # SimpleShell
 
 ## 1.Vital information
-+17102058 Chang Wan Woo
-+OS Design(31001), 2021
-+Assignment 03
++ 17102058 Chang Wan Woo
++ OS Design(31001), 2021
++ Assignment 03
 
 ----------------
 
