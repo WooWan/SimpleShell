@@ -28,15 +28,14 @@ java SimpleShell
 
 **cd**
 
-    cd
-    
+    cd  
 Change directory to /home/user directory and display it.  (absolute path is working)
 
-Handle absolute path
+### Handle absolute path
     cd /home
-Change directory to /home
++ Change directory to /home
 
->Relative path 
+### Relative path 
     cd user
 Change directory to   /home/user 
 
@@ -46,7 +45,7 @@ Change directory to /home/user_name/existingFolder
     cd ..
 Change directory to /home/user
 
->Error handling 
+### Error handling 
     cd fakeDirectory
 Print "Invalid path, take valid path again".
 
